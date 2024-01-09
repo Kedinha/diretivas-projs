@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'diretivas-projs';
-  isAliveCard = true; //data binding com o card-comp html *ngif
+  isAliveCard = true;
+  //data binding com o card-comp html *ngif
 }

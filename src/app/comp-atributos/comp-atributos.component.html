@@ -1,5 +1,3 @@
-<p [ngClass]="estilo">comp-atributos works!</p>
-<button (click)="trocar()">CHANGE</button>
 <h1 [ngStyle]="{ background: corFundo, color: corFonte }">CURSO ANGULAR</h1>
 
 <ng-content select="h2"></ng-content>
@@ -20,8 +18,11 @@
 <ng-template [ngIf]="isEnableBlock">
   <a href="#">Finalizar Compras</a>
 </ng-template>
-<hr />
+<br />
 <ng-template [ngIf]="true">
   <a href="#">Adicionar ao Carrinho</a>
 </ng-template>
 <hr />
+
+<p [ngClass]="estilo">comp-atributos works!</p>
+<button (click)="trocar()">CHANGE</button>
